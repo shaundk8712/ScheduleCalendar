@@ -1,6 +1,6 @@
 ﻿using CalendarSchedule.Domain.Models;
 
-namespace CalendarSchedule.API.Handlers.Models
+namespace CalendarSchedule.Application.Handlers.Models
 {
     public class BaseResponse<boolean>
     {

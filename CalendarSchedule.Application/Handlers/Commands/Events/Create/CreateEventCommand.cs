@@ -1,8 +1,8 @@
-﻿using CalendarSchedule.API.Handlers.Models;
+﻿using CalendarSchedule.Application.Handlers.Models;
 using CalendarSchedule.Domain.Models;
 using MediatR;
 
-namespace CalendarSchedule.API.Handlers.Commands.Events.Create
+namespace CalendarSchedule.Application.Handlers.Commands.Events.Create
 {
     public class CreateEventCommand : IRequest<BaseResponse<bool>>
     {

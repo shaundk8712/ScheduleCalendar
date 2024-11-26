@@ -1,7 +1,7 @@
-﻿using CalendarSchedule.API.Handlers.Commands.Events.Create;
-using CalendarSchedule.API.Handlers.Commands.Events.Delete;
-using CalendarSchedule.API.Handlers.Commands.Events.Update;
-using CalendarSchedule.API.Handlers.Queries.Events.Get;
+﻿using CalendarSchedule.Application.Handlers.Commands.Events.Create;
+using CalendarSchedule.Application.Handlers.Commands.Events.Delete;
+using CalendarSchedule.Application.Handlers.Commands.Events.Update;
+using CalendarSchedule.Application.Handlers.Queries.Events.Get;
 using CalendarSchedule.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

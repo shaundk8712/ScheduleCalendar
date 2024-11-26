@@ -1,10 +1,9 @@
-﻿using CalendarSchedule.API.Handlers.Models;
+﻿using CalendarSchedule.Application.Handlers.Models;
 using CalendarSchedule.Domain.Models;
 using CalendarSchedule.Infrastructure.Interfaces;
 using MediatR;
-using System.Collections.Generic;
 
-namespace CalendarSchedule.API.Handlers.Commands.Events.Update
+namespace CalendarSchedule.Application.Handlers.Commands.Events.Update
 {
     public class UpdateEventHandler : IRequestHandler<UpdateEventCommand, BaseResponse<bool>>
     {

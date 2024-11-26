@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureApplicationServices();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(CalendarSchedule.Application.AssemblyReference.Assembly));
 
 builder.Services.AddControllers().AddFluentValidation(v =>
 {
