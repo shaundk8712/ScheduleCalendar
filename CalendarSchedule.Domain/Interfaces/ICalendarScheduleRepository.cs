@@ -1,6 +1,6 @@
 ﻿using CalendarSchedule.Domain.Models;
 
-namespace CalendarSchedule.Infrastructure.Interfaces
+namespace CalendarSchedule.Domain.Interfaces
 {
     public interface ICalendarScheduleRepository
     {

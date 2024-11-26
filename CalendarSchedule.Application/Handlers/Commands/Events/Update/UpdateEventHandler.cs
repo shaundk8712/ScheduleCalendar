@@ -1,6 +1,6 @@
 ﻿using CalendarSchedule.Application.Handlers.Models;
 using CalendarSchedule.Domain.Models;
-using CalendarSchedule.Infrastructure.Interfaces;
+using CalendarSchedule.Domain.Interfaces;
 using MediatR;
 
 namespace CalendarSchedule.Application.Handlers.Commands.Events.Update

@@ -1,5 +1,5 @@
 ﻿using CalendarSchedule.Domain.Models;
-using CalendarSchedule.Infrastructure.Interfaces;
+using CalendarSchedule.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace CalendarSchedule.Infrastructure.Repository
